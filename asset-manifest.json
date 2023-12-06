@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/los-golondrina-web/static/css/main.589e3a47.css",
+    "main.js": "/los-golondrina-web/static/js/main.29ef80f2.js",
+    "static/js/787.ce87ab78.chunk.js": "/los-golondrina-web/static/js/787.ce87ab78.chunk.js",
+    "static/media/los-golondrina-logo-letras.png": "/los-golondrina-web/static/media/los-golondrina-logo-letras.4fa795759130852e6ecb.png",
+    "static/media/los-golondrina-cover.JPG": "/los-golondrina-web/static/media/los-golondrina-cover.8b5c4e1fae09d889f0bf.JPG",
+    "static/media/los-golondrina-cover-mini.jpg": "/los-golondrina-web/static/media/los-golondrina-cover-mini.070a9de408ddfbedbfe1.jpg",
+    "index.html": "/los-golondrina-web/index.html",
+    "main.589e3a47.css.map": "/los-golondrina-web/static/css/main.589e3a47.css.map",
+    "main.29ef80f2.js.map": "/los-golondrina-web/static/js/main.29ef80f2.js.map",
+    "787.ce87ab78.chunk.js.map": "/los-golondrina-web/static/js/787.ce87ab78.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.589e3a47.css",
+    "static/js/main.29ef80f2.js"
+  ]
+}
