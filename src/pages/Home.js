@@ -5,12 +5,18 @@ import CoverImage from "../assets/los-golondrina-cover-mini.jpg"
 //import LogoImage from "../assets/los-golondrina-logo-letras-mini.png"
 import { VideoList } from "../helpers/VideoList"
 import VideoItem from '../components/VideoItem'
+import { LiveList } from '../helpers/LiveList'
+import LiveItem from '../components/LiveItem'
 import "../styles/Home.css"
 
 
 function Home() {
   const videoList = VideoList
   const displayedVideos = videoList.slice(0, 3)
+
+  const liveList = LiveList
+  const displayedLive = liveList.slice(0,3)
+
   return (
     <div className='sections'>
       <div className='home' style={{backgroundImage: `url(${BannerImage})`}}>
@@ -34,7 +40,18 @@ function Home() {
       </div>
       <div className='liveContainer'>
           <h1>Live</h1>
-          <p>No hay fechas próximas</p>
+          <div className='liveList'>
+            {displayedLive.map((liveItem, key) => {
+              return (
+                <LiveItem
+                  key={key} 
+                  date={liveItem.date}
+                  venue={liveItem.venue}
+                  city={liveItem.city}
+                />
+              )
+            })}
+          </div>
       </div>
       <div className='videosContainer'>
           <h1>Videos</h1>
